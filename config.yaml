@@ -7,5 +7,5 @@ ignores:
     - sms
     - gen
   pos:
-    - "vbm"
-    - "abm"
+    - vbm
+    - abm

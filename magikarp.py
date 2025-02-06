@@ -17,7 +17,7 @@ svenska.se''')
 
   lemma = args.lemma
   query_feats = set(args.feats)
-  ignored_feats = set(config["ignores"]["pos"]) - query_feats
+  ignored_feats = set(config["ignores"]["feats"]) - query_feats
   ignored_pos = set(config["ignores"]["pos"])
 
   saldom_string = urllib.request.urlopen(
