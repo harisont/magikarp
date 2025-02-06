@@ -9,3 +9,4 @@ ignores:
   pos:
     - vbm
     - abm
+    - nnm
