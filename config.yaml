@@ -1,0 +1,11 @@
+karp_url: "https://spraakbanken4.it.gu.se/karp/v7"
+
+ignores: 
+  feats:
+    - ci
+    - cm
+    - sms
+    - gen
+  pos:
+    - "vbm"
+    - "abm"
