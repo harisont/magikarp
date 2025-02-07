@@ -6,6 +6,7 @@ ignores:
     - cm
     - sms
     - gen
+    - s-form
   pos:
     - vbm
     - abm
