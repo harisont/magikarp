@@ -21,7 +21,7 @@ svenska.se''')
   ignored_pos = set(config["ignores"]["pos"])
 
   saldom_string = urllib.request.urlopen(
-    "{}/query/saldom?q=equals|baseform|%22{}%22&size=10" 
+    "{}/query/saldom?q=equals|baseform|%22{}%22" 
     .format(config["karp_url"], quote(lemma))).read()
   saldom_dict = json.loads(saldom_string)
 
