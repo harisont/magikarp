@@ -11,3 +11,4 @@ ignores:
     - vbm
     - abm
     - nnm
+    - ppm
